@@ -28,11 +28,11 @@ class SearchBar extends Component {
 
   render() {
       return (
-        <form onSubmit={this.onFormSubmit} className="input-group">
+        <form onSubmit={this.onFormSubmit} className="input-group mt-4 mb-3">
           <div className="input-group mb-3">
             <input type="text"
                   className="form-control "
-                  placeholder="Get a 5 day forecast in your favorite cities"
+                  placeholder="Get a five day forecast in your favorite cities"
                   aria-label="Search Input"
                   aria-describedby="basic-addon2"
                   value={this.state.term}
