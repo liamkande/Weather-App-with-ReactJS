@@ -8,6 +8,7 @@ export default function(state = [], action) {
     //This is the same as the above concat in the new ES6 Syntax howerver
     //we returning it in a different set of order witch could be changed by switching the order
     return [action.payload.data, ...state]
+    default:
+    return state
   }
-  return state
 }
